@@ -1,0 +1,83 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 26.03.2024., 09:36:37
+    Author     : nadez
+*/
+
+
+/*
+
+> 0px   XS  -  NO NAME
+
+
+>576px  SM  -  small devices
+
+
+>768px  MD  -  medium devices
+
+
+>992px  LG  -  large devices
+
+
+>1200px XL  -  extra large devices
+
+*/
+
+@media(min-width:576){
+    
+}
+
+@media(min-width:768px){
+    .lead-section .carousel-item{
+        padding: 150px 0px;
+    }
+    
+    .lead-section .carousel-item .caption{
+        width: 53%;
+    }
+    
+    .lead-section .carousel-item .caption h2{
+        font-size: 60px;
+        line-height: 80px;
+        letter-spacing: 1.99px;
+    }
+    
+    .achivements .achivements-item h3{
+    font-size: 50px;
+}
+}
+
+@media(min-width:992px){
+    
+  .navbar-light .navbar-nav .nav-link{
+    border-bottom: 2px solid transparent;
+    padding: 20px;
+}
+
+.lead-section .carousel-item{
+    padding: 200px 0px;
+}
+
+.carousel-indicators{
+    margin-bottom: 50px;
+}
+ 
+}
+
+@media(min-width:1200px){
+    
+    .navbar-light .navbar-nav .nav-item{
+        margin-left: 15px;
+    }
+    
+    .container{
+        max-width: 1170px;
+    } 
+    
+    .lead-section .carousel-item{
+        padding: 250px 0px;
+    }
+}
